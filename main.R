@@ -37,20 +37,20 @@ pop_metro <- sum(tail(vacsi_tot_reg_2021_03_22_17h19$pop, 14))
 
 # Nombre de vaccinees aux regions Ultramarines et Metropolitaines #
 #==============================================================================#
-nb_vac_ultra_01_03 <- sum(head( vacsi_tot_reg_2021_03_01_20h15$n_tot_dose1, 4))
-nb_vac_metro_01_03 <- sum(tail( vacsi_tot_reg_2021_03_01_20h15$n_tot_dose1, 15))
+nb_vac_ultra_01_03 <- sum(head( vacsi_tot_reg_2021_03_01_20h15$n_tot_dose1, 5))
+nb_vac_metro_01_03 <- sum(tail( vacsi_tot_reg_2021_03_01_20h15$n_tot_dose1, 14))
 
-nb_vac_ultra_08_03 <- sum(head( vacsi_tot_reg_2021_03_08_17h25$n_tot_dose1, 4))
-nb_vac_metro_08_03 <- sum(tail( vacsi_tot_reg_2021_03_08_17h25$n_tot_dose1, 15))
+nb_vac_ultra_08_03 <- sum(head( vacsi_tot_reg_2021_03_08_17h25$n_tot_dose1, 5))
+nb_vac_metro_08_03 <- sum(tail( vacsi_tot_reg_2021_03_08_17h25$n_tot_dose1, 14))
 
-nb_vac_ultra_15_03 <- sum(head( vacsi_tot_reg_2021_03_15_17h25$n_tot_dose1, 4))
-nb_vac_metro_15_03 <- sum(tail( vacsi_tot_reg_2021_03_15_17h25$n_tot_dose1, 15))
+nb_vac_ultra_15_03 <- sum(head( vacsi_tot_reg_2021_03_15_17h25$n_tot_dose1, 5))
+nb_vac_metro_15_03 <- sum(tail( vacsi_tot_reg_2021_03_15_17h25$n_tot_dose1, 14))
 
-nb_vac_ultra_18_03 <- sum(head( vacsi_tot_reg_2021_03_18_17h25$n_tot_dose1, 4))
-nb_vac_metro_18_03 <- sum(tail( vacsi_tot_reg_2021_03_18_17h25$n_tot_dose1, 15))
+nb_vac_ultra_18_03 <- sum(head( vacsi_tot_reg_2021_03_18_17h25$n_tot_dose1, 5))
+nb_vac_metro_18_03 <- sum(tail( vacsi_tot_reg_2021_03_18_17h25$n_tot_dose1, 14))
 
-nb_vac_ultra_22_03 <- sum(head( vacsi_tot_reg_2021_03_22_17h19$n_tot_dose1, 4))
-nb_vac_metro_22_03 <- sum(tail( vacsi_tot_reg_2021_03_22_17h19$n_tot_dose1, 15))
+nb_vac_ultra_22_03 <- sum(head( vacsi_tot_reg_2021_03_22_17h19$n_tot_dose1, 5))
+nb_vac_metro_22_03 <- sum(tail( vacsi_tot_reg_2021_03_22_17h19$n_tot_dose1, 14))
 #==============================================================================#
 
 
